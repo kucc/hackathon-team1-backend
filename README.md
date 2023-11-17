@@ -4,8 +4,8 @@
 - [서비스 배포 링크](https://hackathon-team1-frontend.vercel.app/)
 - [서버 배포 링크](https://118.67.143.134:8080/)
 
-## 서비스 소개
-일정 관리해주는 서비스 ㅇㅅㅇ
+## 서비스 한 줄 소개
+대학생의 일정을 우선순위별로 관리하고 월간 및 일별로 조회 가능한 일정 관리 시스템
 
 ## 일정
 
@@ -28,7 +28,7 @@
         </tr>
         <tr>
             <td>20:00</td>
-            <td>FastAPI 폴더 구조 생성<br>test용 API 구현<br>SSL 연결</td>
+            <td>FastAPI 폴더 구조 생성<br>test용 API 구현</td>
             <td>템플릿 찾아보기</td>
             <td>와이어프레임</td>
         </tr>
@@ -40,25 +40,17 @@
             <td>22:00</td>
             <td>데이터 모델링<br>API 리스트 작성</td>
             <td>Figma 사용<br>API 리스트 작성</td>
-            <td></td>
+            <td>디자인</td>
         </tr>
         <tr>
             <td>23:00</td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>개발</td>
+            <td>개발</td>
+            <td>로직 작성</td>
         </tr>
         <tr>
-            <td>00:00</td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>01:00</td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>07:00</td>
+            <td colspan="3">테스트</td>
         </tr>
     </table>
 </details>
@@ -77,13 +69,11 @@
       <img width="200" src = "https://avatars.githubusercontent.com/u/108617193?v=4"/>
     </td>
   </tr> 
-
   <tr>
     <th align="center">권민재</th>
     <th align="center">문준호</th>
     <th align="center">안민영</th>
   </tr>
-
   <tr>
     <td align="center">
       <a href="https://github.com/mjkweon17">mjkweon17</a>
@@ -95,11 +85,46 @@
       <a href="https://github.com/minyeoong">minyeoong</a>
     </td>
   </tr>
-
   <tr>
     <th align="center">Backend, CI/CD</th>
     <th align="center">Frontend, Design</th>
     <th align="center">Project Managing</th>
+  </tr>
+</table>
+
+### 도움 주신 분들
+<table align="center" style = "table-layout: auto; width: 100%; table-layout: fixed;">
+  <tr>
+    <td>
+       <img width="200" src = "https://avatars.githubusercontent.com/u/99082370?v=4" />
+    </td>
+    <td>
+      <img width="200" src = "https://avatars.githubusercontent.com/u/52532871?v=4"/>
+    </td>
+    <td>
+      <img width="200" src = "https://avatars.githubusercontent.com/u/16236317?v=4"/>
+    </td>
+  </tr> 
+  <tr>
+    <th align="center">최어진</th>
+    <th align="center">김현채</th>
+    <th align="center">RanolP</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/oeozinni">oeozinni</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/r-4bb1t">r-4bb1t</a>
+    </td>
+        <td align="center">
+      <a href="https://github.com/ranolp">ranolp</a>
+    </td>
+  </tr>
+  <tr>
+    <th align="center">Design</th>
+    <th align="center">Frontend, Design</th>
+    <th align="center">Frontend</th>
   </tr>
 </table>
 
@@ -114,27 +139,21 @@
 |:---|:---|
 | Language | Python 3.10 |
 | Database/ORM | MySQL, Naver Cloud Platform - Cloud DB for MySQL, SQLAlchemy |
-| CI/CD | Naver Cloud Platform - Server, Docker, Docker Hub, GitHub Actions |
-| ETC | Swagger, Notion, ChannelTalk, [ERDCloud](https://www.erdcloud.com/d/9pM4F45F62tvMWBT3), MySQL Workbench |
+| ETC | ngrok, Swagger, Channel Talk, [ERDCloud](https://www.erdcloud.com/d/9pM4F45F62tvMWBT3), MySQL Workbench, GPT-4 Turbo |
 
 ## 다이어그램
-<details>
-    <summary>Overall Arhitecture</summary>
-    <img width = "500" src = "https://user-images.githubusercontent.com/75142329/282190612-2089d2e5-0304-4951-aadf-cf3746b17897.png" >
-</details>
 
-<details>
-    <summary>CI/CD Architecture</summary>
-    <img width = "500" src = "https://user-images.githubusercontent.com/75142329/282190604-7e1598f7-c5ce-4e65-a40a-b88302ce58b6.png" >
-</details>
-
-<details>
-    <summary>ERD</summary>
-    <img width = "800" src = "https://user-images.githubusercontent.com/75142329/282190854-37fdf2c9-f8c7-4d00-a777-952ea3c7c127.png" >
-</details>
+### ERD
+<img width = "800" src = "https://user-images.githubusercontent.com/75142329/283930400-24865302-da6f-4a89-9629-4543410ed373.png" >
 
 ## 기능
-
+- 캘린더
+- 월간 일정 조회
+- 일일 일정 조회
+- 일정 추가
+- 우선순위에 따른 일정 목록 추천
+- GPT-4 Turbo의 우선순위 추가
+- GPT-4 Turbo에게 오늘을 슬기롭게 보내는 법 물어보기
 
 ## API 리스트
 
@@ -149,9 +168,59 @@
         <td>/test</td>
         <td>테스트용 API</td>
     </tr>
+    <tr>
+        <td>GET</td>
+        <td>/test</td>
+        <td>테스트용 API</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/test</td>
+        <td>테스트용 API</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/test</td>
+        <td>테스트용 API</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/test</td>
+        <td>테스트용 API</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/test</td>
+        <td>테스트용 API</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/test</td>
+        <td>테스트용 API</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/test</td>
+        <td>테스트용 API</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/test</td>
+        <td>테스트용 API</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/test</td>
+        <td>테스트용 API</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/test</td>
+        <td>테스트용 API</td>
+    </tr>
 </table>
 
-## 앱 화면
+## 웹 화면
 <!-- 
 | <img src="https://user-images.githubusercontent.com/75142329/282195384-18271285-4578-4d3e-923c-2130bd362b46.png" width="200"><br/>메인 페이지 | <img src="https://user-images.githubusercontent.com/75142329/282195365-09152f97-bf9a-4a32-bfe7-701125a2b636.png" width="200"><br/>로그인 | <img src="https://user-images.githubusercontent.com/75142329/282195368-f16aba74-210d-4c1e-88b3-340706ba718b.png" width="200"><br/>회원가입 |
 |:-------------------------------------------------:|:-------------------------------------------------:|:-------------------------------------------------:|
