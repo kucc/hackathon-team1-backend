@@ -16,25 +16,11 @@
 
 - 개발 시간: 2023년 11월 17일 19시 ~ 2023년 11월 11일 09시
 
-<style>
-    .divider {
-        border-left: 2px solid #000;
-    }
-    .center-column {
-        text-align: center;
-    }
-</style>
-
-<table class="center-column">
+<table style="text-align: center;">
     <tr>
         <th>TIME</th>
         <th>민재</th>
         <th>준호</th>
-        <th>민영</th>
-        <td class="divider"></td>
-        <th>TIME</th>
-        <th>민재</th>
-        <th>준효</th>
         <th>민영</th>
     </tr>
     <tr>
@@ -42,50 +28,25 @@
         <td>README.md 작성</td>
         <td>프론트 배포</td>
         <td>조이름&로고 만들기<br>아이디어 구체화</td>
-        <td class="divider"></td>
-        <td>02:00</td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>20:00</td>
         <td>FastAPI 폴더 구조 생성<br>test용 API 구현<br>SSL 연결</td>
         <td>템플릿 찾아보기</td>
         <td>와이어프레임</td>
-        <td class="divider"></td>
-        <td>03:00</td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>21:00</td>
         <td colspan="3">와이어프레임 보고 UI, UX 구체화</td>
-        <td class="divider"></td>
-        <td>04:00</td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>22:00</td>
         <td>데이터 모델링<br>API 리스트 작성</td>
         <td>Figma 사용<br>API 리스트 작성</td>
         <td></td>
-        <td class="divider"></td>
-        <td>05:00</td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>23:00</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td class="divider"></td>
-        <td>06:00</td>
         <td></td>
         <td></td>
         <td></td>
@@ -95,19 +56,9 @@
         <td></td>
         <td></td>
         <td></td>
-        <td class="divider"></td>
-        <td>07:00</td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>01:00</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td class="divider"></td>
-        <td>08:00</td>
         <td></td>
         <td></td>
         <td></td>
