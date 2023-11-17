@@ -16,7 +16,7 @@
 
 - 개발 시간: 2023년 11월 17일 19시 ~ 2023년 11월 11일 09시
 
-<table style="text-align: center;">
+<table style="text-align: center; width: 800px">
     <tr>
         <th>TIME</th>
         <th>민재</th>
