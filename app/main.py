@@ -19,6 +19,7 @@ origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173"
     "http://127.0.0.1:5173/"
+    "https://hackathon-team1-frontend.vercel.app/"
     # 프론트엔드 배포 주소
 ]
 
