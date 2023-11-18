@@ -135,7 +135,7 @@
 ## 🛠 Frontend Tech Stack
 | Framework | React |
 |:---|:---|
-| Language | HTML, CSS, Javascript |
+| Language | HTML, CSS, Javascript, React |
 | Deployment | Vercel |
 
 ## 🛠 Backend Tech Stack
