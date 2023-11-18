@@ -160,72 +160,8 @@
   - DB에 있는 일정들을 학습한 GPT-4 Turbo
 
 ## API 리스트
+![image](https://github.com/kucc/hackathon-team1-backend/assets/75142329/a268ce4e-ee90-41c3-859f-ee9adc5df8d1)
 
-<table>
-    <tr>
-        <th>Method</th>
-        <th>Endpoint</th>
-        <th>Description</th>
-    </tr>
-    <tr>
-        <td>GET</td>
-        <td>/test</td>
-        <td>테스트용 API</td>
-    </tr>
-    <tr>
-        <td>GET</td>
-        <td>/test</td>
-        <td>테스트용 API</td>
-    </tr>
-    <tr>
-        <td>GET</td>
-        <td>/test</td>
-        <td>테스트용 API</td>
-    </tr>
-    <tr>
-        <td>GET</td>
-        <td>/test</td>
-        <td>테스트용 API</td>
-    </tr>
-    <tr>
-        <td>GET</td>
-        <td>/test</td>
-        <td>테스트용 API</td>
-    </tr>
-    <tr>
-        <td>GET</td>
-        <td>/test</td>
-        <td>테스트용 API</td>
-    </tr>
-    <tr>
-        <td>GET</td>
-        <td>/test</td>
-        <td>테스트용 API</td>
-    </tr>
-    <tr>
-        <td>GET</td>
-        <td>/test</td>
-        <td>테스트용 API</td>
-    </tr>
-    <tr>
-        <td>GET</td>
-        <td>/test</td>
-        <td>테스트용 API</td>
-    </tr>
-    <tr>
-        <td>GET</td>
-        <td>/test</td>
-        <td>테스트용 API</td>
-    </tr>
-    <tr>
-        <td>GET</td>
-        <td>/test</td>
-        <td>테스트용 API</td>
-    </tr>
-</table>
 
 ## 웹 화면
-<!-- 
-| <img src="https://user-images.githubusercontent.com/75142329/282195384-18271285-4578-4d3e-923c-2130bd362b46.png" width="200"><br/>메인 페이지 | <img src="https://user-images.githubusercontent.com/75142329/282195365-09152f97-bf9a-4a32-bfe7-701125a2b636.png" width="200"><br/>로그인 | <img src="https://user-images.githubusercontent.com/75142329/282195368-f16aba74-210d-4c1e-88b3-340706ba718b.png" width="200"><br/>회원가입 |
-|:-------------------------------------------------:|:-------------------------------------------------:|:-------------------------------------------------:|
-| <img src="https://user-images.githubusercontent.com/75142329/282195375-0af63d53-829e-470d-a863-e1d408415f90.png" width="200"><br/>강의 필터링 | <img src="https://user-images.githubusercontent.com/75142329/282195381-08fd62ec-642c-47e1-98fc-42c01a6741ec.png" width="200"><br/>강의 상세 정보 | <img src="https://user-images.githubusercontent.com/75142329/282195378-21b4e2af-2fe6-41da-82d7-83d4fb833281.png" width="200"><br/>리뷰 작성 | -->
+![image](https://github.com/kucc/hackathon-team1-backend/assets/75142329/143dd97d-13dd-4335-a231-992ecab441ec)
